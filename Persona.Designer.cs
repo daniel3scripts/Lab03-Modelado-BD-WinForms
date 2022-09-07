@@ -32,10 +32,6 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.dvgListado = new System.Windows.Forms.DataGridView();
-            this.usuario_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.usuario_nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.usuario_password = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.usuario_fecha_registro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dvgListado)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,36 +66,11 @@
             // dvgListado
             // 
             this.dvgListado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgListado.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.usuario_id,
-            this.usuario_nombre,
-            this.usuario_password,
-            this.usuario_fecha_registro});
             this.dvgListado.Location = new System.Drawing.Point(34, 99);
             this.dvgListado.Name = "dvgListado";
             this.dvgListado.Size = new System.Drawing.Size(398, 297);
             this.dvgListado.TabIndex = 3;
             this.dvgListado.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgListado_CellContentClick);
-            // 
-            // usuario_id
-            // 
-            this.usuario_id.HeaderText = "ID";
-            this.usuario_id.Name = "usuario_id";
-            // 
-            // usuario_nombre
-            // 
-            this.usuario_nombre.HeaderText = "Nombre";
-            this.usuario_nombre.Name = "usuario_nombre";
-            // 
-            // usuario_password
-            // 
-            this.usuario_password.HeaderText = "Password";
-            this.usuario_password.Name = "usuario_password";
-            // 
-            // usuario_fecha_registro
-            // 
-            this.usuario_fecha_registro.HeaderText = "FechaRegistro";
-            this.usuario_fecha_registro.Name = "usuario_fecha_registro";
             // 
             // Persona
             // 
@@ -125,9 +96,5 @@
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.DataGridView dvgListado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn usuario_id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn usuario_nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn usuario_password;
-        private System.Windows.Forms.DataGridViewTextBoxColumn usuario_fecha_registro;
     }
 }

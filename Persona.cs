@@ -43,7 +43,7 @@ namespace Lab03
             catch (Exception ie)
             {
                 MessageBox.Show("Error de conexion: " + ie.ToString());
-                throw;
+                
             }
         }
 
