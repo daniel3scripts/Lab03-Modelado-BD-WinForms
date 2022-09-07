@@ -149,5 +149,12 @@ namespace Lab03
                 txtPassword.Enabled = true;
             }
         }
+
+        private void btnPersona_Click(object sender, EventArgs e)
+        {
+            Persona persona = new Persona(conn);
+            persona.Show();  
+
+        }
     }
 }

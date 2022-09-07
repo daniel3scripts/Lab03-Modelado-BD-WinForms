@@ -40,6 +40,7 @@
             this.txtBaseDatos = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnPersona = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -159,12 +160,23 @@
             this.txtPassword.TabIndex = 11;
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
+            // btnPersona
+            // 
+            this.btnPersona.Location = new System.Drawing.Point(307, 336);
+            this.btnPersona.Name = "btnPersona";
+            this.btnPersona.Size = new System.Drawing.Size(85, 25);
+            this.btnPersona.TabIndex = 12;
+            this.btnPersona.Text = "Personas";
+            this.btnPersona.UseVisualStyleBackColor = true;
+            this.btnPersona.Click += new System.EventHandler(this.btnPersona_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(584, 361);
+            this.Controls.Add(this.btnPersona);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.txtBaseDatos);
@@ -201,6 +213,7 @@
         private System.Windows.Forms.TextBox txtBaseDatos;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnPersona;
     }
 }
 
